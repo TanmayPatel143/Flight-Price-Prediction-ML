@@ -1,0 +1,9 @@
+# Model Comparison Report
+
+
+* Random Forest and XGBoost performed best.
+* XGBoost slightly outperformed Random Forest in RMSE and R2 score.
+* Linear Regression underperformed due to non-linear relationship in data.
+# Best Model for Production
+### XGBoost Regressor
+* Reasons: Handles non-linear patterns,Less overfitting,Better generalization,High R2 score,Lower RMSE

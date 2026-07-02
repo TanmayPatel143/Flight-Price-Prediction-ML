@@ -1,0 +1,41 @@
+# Challenges Faced & Solutions
+
+* Challenge 1: Date & Time Feature Engineering
+
+Problem:
+Date and time were in string format.
+
+Solution:
+Converted them into numerical components (hour, minute, day, month).
+
+* Challenge 2: Duration Format Inconsistency
+
+Problem:
+Duration values were in "2h 50m" format.
+
+Solution:
+Converted into total minutes for numerical analysis.
+
+* Challenge 3: Categorical Variables
+
+Problem:
+Airline, Source, Destination were categorical.
+
+Solution:
+Used One-Hot Encoding to convert them into numerical format.
+
+* Challenge 4: Overfitting in Decision Tree
+
+Problem:
+Decision Tree gave high training accuracy but poor test performance.
+
+Solution:
+Used Random Forest & XGBoost to reduce variance.
+
+* Challenge 5: Non-linear Relationship
+
+Problem:
+Linear Regression performed poorly.
+
+Solution:
+Used ensemble models like Random Forest and XGBoost.
